@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+nav{
+    height: 72px;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    height: 27px;
+    width: 126.9px;
+    margin: 22px;
+    display: inline;
+}
+
+.container{
+    margin: 18px;
+    display: flex;
+    gap: 25px;
+}
+
+.search{
+    height: 40px;
+    width: 823.1px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 5px gainsboro;
+    display: flex;
+}
+
+.i{
+    display: block;
+    width: 40px;
+    height: 50px;
+}
+
+.a{
+    font-family: "roboto";
+    margin: 8px;
+    color: grey;
+}
+
+.triangle{
+    margin: 9px;
+    color: rgb(94, 94, 94);
+}
+
+.line{
+    width: 1px;
+    height: 22px;
+    margin: 8px;
+    background-color: gainsboro;
+}
+
+.search_icon{
+    display: flex;
+}
+
+.b{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin: 8px;
+    color: grey;
+}
+
+.c{
+    font-family: roboto;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-weight: 100;
+    margin: 8px;
+}
+
+.d{
+    font-family: roboto;
+    margin: 20px;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 22.5px;
+}
+
+.sticky1{
+    height: 89px;
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    padding: 15px;
+}
+
+.dine_out{
+    width: 210px;
+    display: flex;
+    height: 89px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(247, 243, 243);
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+}
+.aa{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    left: 16px;
+}
+
+.e{
+    font-family: roboto;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    margin-top: 20px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.del{
+    background-color: rgb(255, 234, 180);
+}
+
+hr{
+    width: 100%;
+    background-color: gainsboro;
+    height: 1px;
+}
+
+.options{
+    display: flex;
+    height: 88.5px;
+    z-index: 10;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+.A{
+    height: 36.5px;
+    width: 90px;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 10px;
+    margin: 10px;
+    font-family: roboto;
+    color: gray;
+    font-weight: 200;
+    padding: 8px;
+}
+
+.inspiration{
+    height: 336px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+}
+
+h1{
+    margin: 20px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+}
+
+.food{
+    display: flex;
+}
+
+.item{
+    height: 188px;
+    width: 188px;
+    margin: 20px;
+    padding: 8px;
+}
+
+.B{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.topbrands{
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+}
+
+h6{
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.main{
+    display: flex;
+}
+
+.element{
+    height: 350.4px;
+    width: 100%;
+}
+
+.ele{
+    height: 350.4px;
+    width: 380px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ele:hover{
+    border: 1px solid gainsboro;
+    box-shadow: 1px 1px 5px gainsboro;
+
+}
+
+.C{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.text1{
+    margin: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 260px;
+}
+
+.text2{
+    display: flex;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 12px;
+    position: absolute;
+    top: 285px;
+}
+
+.start{
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.end{
+    text-align: end;
+    justify-content: flex-end;
+}
+
+.text3{
+    font-weight: 350;
+    text-align: end;
+    position: absolute;
+    top: 320px;
+    right: 12px;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    height:22px ;
+    width: 60px;
+    position: absolute;
+    top: 1px;
+    left: 300px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+span{
+    color: white;
+}
+
+.ending{
+    width: 100%;
+    height: 507.51;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.D{
+    height: 38px;
+}
+
+.E{
+    justify-self: end;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 38px;
+    width: 125px;
+    position: relative;
+    padding: 8px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 300;
+    top: -36px;
+    left: 850px;
+}
+
+.F{
+    justify-self: end;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 38px;
+    width: 125px;
+    position: relative;
+    padding: 8px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 300;
+    top: -74px;
+    left: 1000px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  top: -5px;
+  right: -5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+.H{
+    width: 100%;
+    height: 507.51;
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+    display: flex;
+
+}
+
+
+.list{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    gap: 60px;
+}
+
+.G{
+    font-size: 20px;
+}
+
+ul{
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.social{
+    display: flex;
+    margin: 10px;
+    position: relative;
+    right: -78pxpx;
+}
+
+.I{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.J, .K{
+    margin: 10px;
+    position: relative;
+}
+
+.Z{
+    background-color: rgb(250, 250, 250);
+    padding: 30px;
+}
+
+.y{
+    margin: 10px;
+    width: 90%;
+    height: 69px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    font-weight: 250;
+}
+
+.q{
+    position: relative;
+    top: -65px;
+    right: -450px;
+}
